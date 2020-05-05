@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 disp('Welcome to BMI Calculator');
-s = input('Enter your name');
+s = input('Enter your name');%Please enter your name within " "(double quotation marks)
 choice = menu('Welcome to BMI calculator','Imperial System','SI standard system');
 if(choice==1)
    w=input('Enter your weight in pounds');
